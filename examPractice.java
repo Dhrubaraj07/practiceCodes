@@ -12,7 +12,7 @@ public class examPractice {
 
     private static int[] sortZero(int[] nums) {
         for(int i=0;i<nums.length-1;i++){
-            for(int j=i;j<nums.length-1;j++){
+            for(int j=0;j<nums.length-1;j++){
                 if(nums[j]==0) swap(nums,j,j+1);
             }
         }
