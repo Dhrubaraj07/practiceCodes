@@ -2,7 +2,7 @@ package JavaPractice;
 
 public class examPractice {
     public static void main(String[] args) {
-        int[] nums={0};
+        int[] nums={0,1,0,3,12};
         if(nums.length<=1) System.out.println(nums[0]);
         else{
             sortZero(nums);
